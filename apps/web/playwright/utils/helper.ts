@@ -211,20 +211,20 @@ export const signUpAndLogin = async (
   await page.getByPlaceholder("*******").click();
   await page.getByPlaceholder("*******").fill(password);
   await page.getByRole("button", { name: "Continue with Email" }).click();
-  await page.getByText("Login").click();
-  await page.getByRole("button", { name: "Login with Email" }).click();
+  await page.getByText("Log in").click();
+  await page.getByRole("button", { name: "Log in with Email" }).click();
   await page.getByPlaceholder("work@email.com").fill(email);
   await page.getByPlaceholder("*******").click();
   await page.getByPlaceholder("*******").fill(password);
-  await page.getByRole("button", { name: "Login with Email" }).click();
+  await page.getByRole("button", { name: "Log in with Email" }).click();
 };
 
 export const login = async (page: Page, email: string, password: string): Promise<void> => {
   await page.goto("/auth/login");
 
-  await expect(page.getByRole("button", { name: "Login with Email" })).toBeVisible();
+  await expect(page.getByRole("button", { name: "Log in with Email" })).toBeVisible();
 
-  await page.getByRole("button", { name: "Login with Email" }).click();
+  await page.getByRole("button", { name: "Log in with Email" }).click();
 
   await expect(page.getByPlaceholder("work@email.com")).toBeVisible();
 
@@ -234,7 +234,7 @@ export const login = async (page: Page, email: string, password: string): Promis
 
   await page.getByPlaceholder("*******").click();
   await page.getByPlaceholder("*******").fill(password);
-  await page.getByRole("button", { name: "Login with Email" }).click();
+  await page.getByRole("button", { name: "Log in with Email" }).click();
 };
 
 export const apiLogin = async (page: Page, email: string, password: string) => {
@@ -353,12 +353,12 @@ export const signupUsingInviteToken = async (page: Page, name: string, email: st
   await page.getByPlaceholder("*******").fill(password);
   await page.waitForTimeout(500);
   await page.getByText("Continue with Email").click();
-  await page.getByText("Login").click();
-  await page.getByRole("button", { name: "Login with Email" }).click();
+  await page.getByText("Log in").click();
+  await page.getByRole("button", { name: "Log in with Email" }).click();
   await page.getByPlaceholder("work@email.com").fill(email);
   await page.getByPlaceholder("*******").click();
   await page.getByPlaceholder("*******").fill(password);
-  await page.getByRole("button", { name: "Login with Email" }).click();
+  await page.getByRole("button", { name: "Log in with Email" }).click();
 };
 
 /**
