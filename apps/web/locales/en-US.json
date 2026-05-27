@@ -681,7 +681,7 @@
         "description": "Make it yours.",
         "no_membership_found": "No membership found!",
         "no_membership_found_description": "You are not a member of any organization at this time. If you believe this is a mistake, please reach out to the organization owner.",
-        "title": "Setup your organization"
+        "title": "Set up your organization"
       }
     },
     "signup": {
@@ -1867,7 +1867,7 @@
       "manage_feedback_sources": "Manage feedback sources",
       "no_feedback_records_message": "You don't have feedback records to report on yet. Set up feedback sources to send data into the system.",
       "no_feedback_records_with_sources_message": "No feedback records yet. Records will appear here once your feedback sources start sending data.",
-      "setup_feedback_source": "Setup feedback sources"
+      "setup_feedback_source": "Set up feedback sources"
     },
     "api_keys": {
       "add_api_key": "Add API Key",
@@ -3616,7 +3616,7 @@
         "reset_survey_warning": "Resetting a survey removes all responses and displays associated with this survey. This cannot be undone.",
         "selected_responses_csv": "Selected responses (CSV)",
         "selected_responses_excel": "Selected responses (Excel)",
-        "setup_integrations": "Setup integrations",
+        "setup_integrations": "Set up integrations",
         "share_survey": "Share survey",
         "show_all_responses_that_match": "Show all responses that match",
         "starts": "Starts",
@@ -3831,7 +3831,7 @@
       "semantic_topics_preview_description": "Enter a topic or phrase to surface feedback records by meaning. This is an early preview of future Topics & Subtopics.",
       "semantic_topics_preview_title": "Search feedback by topic",
       "set_value": "set value",
-      "setup_connection": "Setup source & create records",
+      "setup_connection": "Set up source & create records",
       "showing_count_loaded": "Showing {count} records",
       "showing_rows": "Showing {visible} of {total} rows",
       "source": "source",
